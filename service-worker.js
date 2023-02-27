@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "./thanhnguyen/precache-manifest.cb4d803cebf6b58f57db3e7eea2c0823.js"
+  "/thanhnguyen/precache-manifest.e73156780f0c79a12e67efa39ec92cbb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("./thanhnguyen/index.html", {
+workbox.routing.registerNavigationRoute("/thanhnguyen/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
