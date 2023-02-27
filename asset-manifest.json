@@ -1,7 +1,7 @@
 {
   "main.css": "/thanhnguyen/static/css/main.d28b9227.chunk.css",
-  "main.js": "/thanhnguyen/static/js/main.f6a59017.chunk.js",
-  "main.js.map": "/thanhnguyen/static/js/main.f6a59017.chunk.js.map",
+  "main.js": "/thanhnguyen/static/js/main.a3d7f2ac.chunk.js",
+  "main.js.map": "/thanhnguyen/static/js/main.a3d7f2ac.chunk.js.map",
   "static/js/1.9217d353.chunk.js": "/thanhnguyen/static/js/1.9217d353.chunk.js",
   "static/js/1.9217d353.chunk.js.map": "/thanhnguyen/static/js/1.9217d353.chunk.js.map",
   "static/css/2.92c9c0ed.chunk.css": "/thanhnguyen/static/css/2.92c9c0ed.chunk.css",
@@ -9,9 +9,9 @@
   "static/js/2.a71f548b.chunk.js.map": "/thanhnguyen/static/js/2.a71f548b.chunk.js.map",
   "runtime~main.js": "/thanhnguyen/static/js/runtime~main.8d09f419.js",
   "runtime~main.js.map": "/thanhnguyen/static/js/runtime~main.8d09f419.js.map",
-  "static/css/main.d28b9227.chunk.css.map": "/thanhnguyen/static/css/main.d28b9227.chunk.css.map",
   "static/css/2.92c9c0ed.chunk.css.map": "/thanhnguyen/static/css/2.92c9c0ed.chunk.css.map",
+  "static/css/main.d28b9227.chunk.css.map": "/thanhnguyen/static/css/main.d28b9227.chunk.css.map",
   "index.html": "/thanhnguyen/index.html",
-  "precache-manifest.2264e8ea7dfdaea0c441723ad793bd08.js": "/thanhnguyen/precache-manifest.2264e8ea7dfdaea0c441723ad793bd08.js",
+  "precache-manifest.574e9c4c22bb1832a1cfa35a18d5eeb0.js": "/thanhnguyen/precache-manifest.574e9c4c22bb1832a1cfa35a18d5eeb0.js",
   "service-worker.js": "/thanhnguyen/service-worker.js"
 }
