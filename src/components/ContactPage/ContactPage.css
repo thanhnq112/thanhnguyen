@@ -1,0 +1,136 @@
+.col-boxContainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row_margin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.col-border1 {
+    display: inline-block;
+    margin: 40px 0;
+    width: 600px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: -10px -10px 10px rgba(0,0,0,0.04), 
+                10px 10px 10px rgba(0,0,0,0.1);
+}
+
+.box-header {
+    padding: 50px 60px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.boxForm {
+    text-align: center;
+}
+
+.text-field {
+    font-family: 'Nunito', sans-serif;
+}
+
+.boxForm-btn_container {
+    text-align: end;
+    transform: translateX(10px);
+}
+
+.boxForm-btn_submit::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 5px solid #666;
+    border-left: 5px solid #666;
+}
+
+
+
+.col-border2 {
+    margin: 40px 0;
+    padding: 0 30px;
+}
+
+.box-info {
+    padding: 20px 0;
+}
+
+.info-title {
+    display: block;
+}
+
+.info-title-icon {
+    width: 25px;
+    margin-right: 20px;
+    float: left;
+}
+
+.info-title-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #dd7107;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+}
+
+.info-content {
+    font-size: 17px;
+    margin: 0;
+    padding: 15px 0;
+    color: #333;
+}
+
+
+/* Tablet: 740px <= width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+    .col-border1 {
+        width: 420px;
+    }
+
+    .info-title-text {
+        font-size: 18px;
+    }
+
+    .info-content {
+        font-size: 15px;
+    }
+
+    .contact-container {
+        margin-top: 80px;
+    }
+}
+
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+    .col-border1 {
+        width: 340px;
+    }
+
+    .info-title-text {
+        font-size: 18px;
+    }
+
+    .info-content {
+        font-size: 15px;
+    }
+
+    .contact-container {
+        margin-top: 80px;
+    }
+
+
+}

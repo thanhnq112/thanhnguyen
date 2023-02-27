@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "location": "Russia",
+        "image": "img/landscape/landscape-1.jpg"
+    },
+    {
+        "id": 2,
+        "location": "Russia",
+        "image": "img/landscape/landscape-2.jpg"
+    },
+    {
+        "id": 3,
+        "location": "Ta Xua, Son La, Vietnam",
+        "image": "img/landscape/landscape-3.jpg"
+    },
+    {
+        "id": 4,
+        "location": "Russia",
+        "image": "img/landscape/landscape-4.jpg"
+    },
+    {
+        "id": 5,
+        "location": "Crimea, Russia",
+        "image": "img/landscape/landscape-5.jpg"
+    },
+    {
+        "id": 6,
+        "location": "Moscow, Russia",
+        "image": "img/landscape/landscape-6.jpg"
+    },
+    {
+        "id": 7,
+        "location": "Crimea, Russia",
+        "image": "img/landscape/landscape-7.jpg"
+    },
+    {
+        "id": 8,
+        "location": "Russia",
+        "image": "img/landscape/landscape-8.jpg"
+    },
+    {
+        "id": 9,
+        "location": "Ta Xua, Son La, Vietnam",
+        "image": "img/landscape/landscape-9.jpg"
+    },
+    {
+        "id": 10,
+        "location": "Kislovodsk, Russia",
+        "image": "img/landscape/landscape-10.jpg"
+    },
+    {
+        "id": 11,
+        "location": "Baikal, Russia",
+        "image": "img/landscape/landscape-11.jpg"
+    },
+    {
+        "id": 12,
+        "location": "Teriberka, Russia",
+        "image": "img/landscape/landscape-12.jpg"
+    },
+    {
+        "id": 13,
+        "location": "Ta Xua, Son La, Vietnam",
+        "image": "img/landscape/landscape-13.jpg"
+    },
+    {
+        "id": 14,
+        "location": "Moscow, Russia",
+        "image": "img/landscape/landscape-14.jpg"
+    },
+    {
+        "id": 15,
+        "location": "Sa Pa, Vietnam",
+        "image": "img/landscape/landscape-15.jpg"
+    },
+    {
+        "id": 16,
+        "location": "Ta Xua, Son La, Vietnam",
+        "image": "img/landscape/landscape-16.jpg"
+    },
+    {
+        "id": 17,
+        "location": "Ulan-Ude, Russia",
+        "image": "img/landscape/landscape-17.jpg"
+    },
+    {
+        "id": 18,
+        "location": "Kavkaz, Russia",
+        "image": "img/landscape/landscape-18.jpg"
+    },
+    {
+        "id": 19,
+        "location": "Crimea, Russia",
+        "image": "img/landscape/landscape-19.jpg"
+    },
+    {
+        "id": 20,
+        "location": "Kavkaz, Russia",
+        "image": "img/landscape/landscape-20.jpg"
+    },
+    {
+        "id": 21,
+        "location": "Kazan, Russia",
+        "image": "img/landscape/landscape-21.jpg"
+    },
+    {
+        "id": 22,
+        "location": "Crimea, Russia",
+        "image": "img/landscape/landscape-22.jpg"
+    },
+    {
+        "id": 23,
+        "location": "Crimea, Russia",
+        "image": "img/landscape/landscape-23.jpg"
+    },
+    {
+        "id": 24,
+        "location": "Ulan-Ude, Russia",
+        "image": "img/landscape/landscape-24.jpg"
+    }
+]

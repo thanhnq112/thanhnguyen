@@ -1,0 +1,71 @@
+.footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-break {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 300px;
+}
+
+
+.footer-email {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+.footer-phone {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+.footer-socialNetwork {
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.footer-socialNetwork-icon {
+    width: 20px;
+    margin: 0 20px;
+}
+
+.footer-color-box {
+    height: 80px;
+    background-color: rgba(244,240,237, 1);
+}
+
+
+
+/* Tablet: 740px <= width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .footer-email {
+        font-size: 14px;
+    }
+
+    .footer-phone {
+        font-size: 14px;
+    }
+}
+
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+    .footer-break {
+        margin: 0 50px;
+    }
+
+    .footer-email {
+        font-size: 14px;
+    }
+
+    .footer-phone {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,142 @@
+.portrait-container {
+    margin: 0 60px;
+    padding-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portrait-title {
+    margin: 0;
+    padding: 50px 0;
+    font-size: 50px;
+    font-family: 'Passions Conflict', cursive;
+}
+
+.masonry-item {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.masonry-image {
+    display: block;
+    width: 100%;
+    transition: all 0.2s linear;
+}
+
+.masonry-location {
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.1s linear;
+    /* background: linear-gradient(225deg, rgba(2,0,36,0) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,0.9) 100%);     */
+}
+
+.masonry-location:hover {
+    opacity: 1;
+    bottom: 0;
+}
+
+.masonry-image:hover ~ .masonry-location {
+    opacity: 1;
+    bottom: 0;
+}
+
+.masonry-location-icon {
+    width: 20px;
+    margin: 10px;
+}
+
+.masonry-location-text {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    line-height: 40px;
+}
+
+.masonry-modalBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: auto;
+}
+
+.masonry-modalBox:focus {
+    outline: none;
+}
+
+.masonry-modalImage {
+    height: 100%;
+}
+
+
+/* Tablet: 740px <= width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .portrait-container {
+        margin: 80px 0 0 0;
+    }
+
+    .portrait-title {
+        padding: 30px 0;
+        font-size: 40px;
+    }
+
+    .masonry-location {
+        height: 28px;
+        bottom: -28px;
+    }
+    
+    .masonry-location-icon {
+        width: 16px;
+        margin: 6px;
+    }
+
+    .masonry-location-text {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .masonry-modalBox {
+        height: 70%;
+    }
+}
+
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+    .portrait-container {
+        margin: 80px 0 0 0;
+    }
+
+    .portrait-title {
+        padding: 30px 0;
+        font-size: 32px;
+    }
+
+    .masonry-location {
+        height: 28px;
+        bottom: -28px;
+    }
+
+    .masonry-location-icon {
+        width: 16px;
+        margin: 6px;
+    }
+
+    .masonry-location-text {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .masonry-modalBox {
+        width: 90%;
+        height: auto;
+    }
+
+    .masonry-modalImage {
+        width: 100%;
+    }
+}

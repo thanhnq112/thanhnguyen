@@ -1,0 +1,136 @@
+.home-container {
+    padding: 0 60px;
+    
+
+}
+
+.thumbnail {
+    position: relative;
+    overflow: hidden;
+}
+.thumbnail-img {
+    display: block;
+    max-width: 100%;
+    animation-name: scaleUp;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scaleUp {
+    0%, 100% { scale: 1; }
+    50% { scale: 1.15; }
+}
+
+.transparent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #333;
+    opacity: 0.4;
+}
+
+.thumbnail-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.thumbnail-text1 {
+    margin: 0;
+    font-family: 'Alegreya', serif;
+    font-size: 47px;
+    color: white;
+}
+
+.thumbnail-text2 {
+    margin: 0;
+    font-family: 'Alegreya', serif;
+    font-size: 38px;
+    color: white;
+}
+
+.home-quote {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.home-quote-text {
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.home-quote-author-sign {
+    margin: 0;
+    padding-top: 10px;
+    width: 250px;
+    height: auto;
+    transform: translateX(55%) rotate(-2deg);
+}
+
+
+/* Tablet: 740px <= width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .home-container {
+        padding: 0 16px;
+        margin-top: 80px;
+    }
+
+    .thumbnail-text1 {
+        font-size: 40px;
+    }
+
+    .thumbnail-text2 {
+        font-size: 30px;
+    }
+
+    .home-quote {
+        height: 300px;
+    }
+
+    .home-quote-text {
+        font-size: 24px;
+    }
+
+    .home-quote-author-sign {
+        width: 200px;
+    }
+}
+
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+    .home-container {
+        padding: 0;
+        margin-top: 80px;
+    }
+
+    .thumbnail-text1 {
+        font-size: 24px;
+    }
+
+    .thumbnail-text2 {
+        font-size: 16px;
+    }
+
+    .home-quote-text {
+        font-size: 20px;
+    }
+
+    .home-quote-author-sign {
+        width: 150px;
+    }
+    
+    .home-quote {
+        height: 300px;
+    }
+}
+
