@@ -112,7 +112,7 @@ function ContactPage() {
                                 <img className='info-title-icon' src="img/phone.png" alt="" />
                                 <p className="info-title-text">Call me</p>
                             </div>
-                            <p className="info-content">+7-(968)-063-99-98 / +84-96-288-95-60</p>
+                            <p className="info-content">+7(968)-063-99-98 / +84-96-288-95-60</p>
                         </div>
 
                         <div className="box-info">
