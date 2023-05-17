@@ -16,7 +16,7 @@ function Gallery(props) {
 
             <Row xs={1} sm={2} className='dir-gallery-row'>
                 <Col className='dir-gallery-col'>
-                    <Link className='dir-gallery-content-box' to='/portrait'>
+                    <Link className='dir-gallery-content-box' to='/thanhnguyen/portrait'>
                             <div className="dir-gallery-content-imgBox">
                                 <p className='dir-gallery-content-text'>portrait</p>
                                 <img className='dir-gallery-content-image' src={props.sourceImage1} alt="" />
@@ -24,7 +24,7 @@ function Gallery(props) {
                     </Link>
                 </Col>
                 <Col className='dir-gallery-col'>
-                    <Link className='dir-gallery-content-box' to='/landscape'>
+                    <Link className='dir-gallery-content-box' to='/thanhnguyen/landscape'>
                             <div className="dir-gallery-content-imgBox">
                                 <p className='dir-gallery-content-text'>landscape</p>
                                 <img className='dir-gallery-content-image' src={props.sourceImage2} alt="" />

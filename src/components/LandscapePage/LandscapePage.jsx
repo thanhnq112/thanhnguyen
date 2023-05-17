@@ -13,97 +13,6 @@ function LandscapePage() {
     const handleOpen = (index) => setOpenIndex(index);
     const handleClose = () => setOpenIndex(-1);
     
-    // const [windowDimensions, setWindowDimensions] = useState({
-    //     width: window.innerWidth,
-    //     height: window.innerHeight,
-    // });
-
-    // const [isModalReady, setIsModalReady] = useState(false);
-
-    // useEffect(() => {
-    //     const modalBox = document.querySelector('.masonry-modalBox')
-    //     const modalImage = document.querySelector('.masonry-modalImage')
-
-    //     if (modalBox && modalImage) {
-    //         setIsModalReady(true);
-    //         console.log('da set isModel true');
-    //     }
-    // }, []);
-
-    // useEffect(() => {
-    //     const handleResize = () => {
-    //         setWindowDimensions({
-    //             width: window.innerWidth,
-    //             height: window.innerHeight,
-    //         });
-    //     }
-    
-    //     window.addEventListener("resize", handleResize);
-    //     return () => window.removeEventListener("resize", handleResize);
-    // }, []);
-    // const windowHeight = window.innerHeight;
-    // const windowWidth = window.innerWidth;
-
-    // window.addEventListener('load', () => {
-    //     const test = document.querySelector('#root')
-    //     console.log(test);
-    // })
-    
-    // const handleLoad = () => {
-    //     const modalBox = document.querySelector('.masonry-modalBox')
-    //     const modalImage = document.querySelector('.masonry-modalImage')
-    //     const windowDimensions = {
-    //         width: window.innerWidth,
-    //         height: window.innerHeight,
-    //     }
-    //     if (modalBox && modalImage) {
-    //         if (windowDimensions.height <= windowDimensions.width) {
-    //             modalBox.style.height = '90%'
-    //             modalBox.style.width = 'auto'
-    //             modalImage.style.height = '100%'
-    //             console.log('add style done when height <= width');
-    //         }
-    //         else {
-    //             modalBox.style.width = '90%'
-    //             modalBox.style.height = 'auto'
-    //             modalImage.style.width = '100%'
-    //             console.log('add style done when height > width');
-    //         }
-
-    //     }
-    // }
-
-
-
-
-    // useEffect(() => {
-    //     console.log('height: ' + windowDimensions.height + ' / width: ' + windowDimensions.width);
-    //     const handleLoad = (modalBox, modalImage) => {
-    //         if (windowDimensions.height <= windowDimensions.width) {
-    //             modalBox.style.height = '90%'
-    //             modalBox.style.width = 'auto'
-    //             modalImage.style.height = '100%'
-    //             console.log('add style done when height <= width');
-    //         }
-    //         else {
-    //             modalBox.style.width = '90%'
-    //             modalBox.style.height = 'auto'
-    //             modalImage.style.width = '100%'
-    //             console.log('add style done when height > width');
-    //         }
-    //     }
-
-    //     window.addEventListener('loaded', (event) => {
-    //         console.log(event);
-    //         const modalBox = document.querySelector('.masonry-modalBox')
-    //         const modalImage = document.querySelector('.masonry-modalImage')
-    //         if (modalBox && modalImage) handleLoad(modalBox, modalImage)
-    //         else console.log('k laays dc modal');
-    //     })
-            
-
-    // }, [windowDimensions])
-
     return (
 
         <div className="landscape-container">
@@ -123,7 +32,7 @@ function LandscapePage() {
                             }}
                         />
                         <div className="masonry-location">
-                            <img className='masonry-location-icon' src='./img/location-white.png' alt="" />
+                            <img className='masonry-location-icon' src='img/location-white.png' alt="" />
 
                             <span className='masonry-location-text'>{data.location}</span>
 

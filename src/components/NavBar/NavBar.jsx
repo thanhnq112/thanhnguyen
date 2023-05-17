@@ -7,8 +7,8 @@ import { TfiClose } from "react-icons/tfi";
 
 function NavBar() {
     const location = useLocation();
-    const IdActive = location.pathname.slice(1) === '' ? 'home' : location.pathname.slice(1);
-    
+    // const IdActive = location.pathname.slice(1) === '' ? 'home' : location.pathname.slice(1);
+    const IdActive = location.pathname === '/thanhnguyen/' ? 'home' : location.pathname.slice(13);
 
     const tabActivePrev = document.querySelector('.active')
     if (tabActivePrev) {
@@ -30,16 +30,16 @@ function NavBar() {
 	return (
 		<div className='navbar-container'>
             <div className='navbar-brand'>
-                <Link className='navbar-brand-link' to='/'>
+                <Link className='navbar-brand-link' to='/thanhnguyen/'>
                     <span className='navbar-brand-text'>THANH NGUYEN</span>
                 </Link>
             </div>
             <div className="navbar-tab">
-                <Link className={`navbar-tab-element ${IdActive === 'home' ? 'active' : ''}`} id="home" to='/'>home</Link>
-                <Link className={`navbar-tab-element ${IdActive === 'landscape' ? 'active' : ''}`} id="landscape" to='/landscape'>landscape</Link>
-                <Link className={`navbar-tab-element ${IdActive === 'portrait' ? 'active' : ''}`} id="portrait" to='/portrait'>portrait</Link>
-                <Link className={`navbar-tab-element ${IdActive === 'about' ? 'active' : ''}`} id="about" to='/about'>about</Link>
-                <Link className={`navbar-tab-element ${IdActive === 'contact' ? 'active' : ''}`} id="contact" to='/contact'>contact</Link>
+                <Link className={`navbar-tab-element ${IdActive === 'home' ? 'active' : ''}`} id="home" to='/thanhnguyen/'>home</Link>
+                <Link className={`navbar-tab-element ${IdActive === 'landscape' ? 'active' : ''}`} id="landscape" to='/thanhnguyen/landscape'>landscape</Link>
+                <Link className={`navbar-tab-element ${IdActive === 'portrait' ? 'active' : ''}`} id="portrait" to='/thanhnguyen/portrait'>portrait</Link>
+                <Link className={`navbar-tab-element ${IdActive === 'about' ? 'active' : ''}`} id="about" to='/thanhnguyen/about'>about</Link>
+                <Link className={`navbar-tab-element ${IdActive === 'contact' ? 'active' : ''}`} id="contact" to='/thanhnguyen/contact'>contact</Link>
             </div>
 
             
@@ -62,11 +62,11 @@ function NavBar() {
                         home                
                     </label>
                 </Link> */}
-                <Link className='navbar__mobile-tab-element' to='/'>home</Link>
-                <Link className='navbar__mobile-tab-element' to='/landscape'>landscape</Link>
-                <Link className='navbar__mobile-tab-element' to='/portrait'>portrait</Link>
-                <Link className='navbar__mobile-tab-element' to='/about'>about</Link>
-                <Link className='navbar__mobile-tab-element' to='/contact'>contact</Link>
+                <Link className='navbar__mobile-tab-element' to='/thanhnguyen/'>home</Link>
+                <Link className='navbar__mobile-tab-element' to='/thanhnguyen/landscape'>landscape</Link>
+                <Link className='navbar__mobile-tab-element' to='/thanhnguyen/portrait'>portrait</Link>
+                <Link className='navbar__mobile-tab-element' to='/thanhnguyen/about'>about</Link>
+                <Link className='navbar__mobile-tab-element' to='/thanhnguyen/contact'>contact</Link>
                 
                 {/* <Link className='navbar__mobile-tab-element' to='/contact'>
                     <label htmlFor="nav-mobile-input" className='navbar__mobile-close'>

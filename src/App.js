@@ -23,10 +23,11 @@ function App() {
 			<NavBar />
 			<Routes>
 				<Route path="/" element={<HomePage />}/>
-				<Route path="/landscape" element={<LandscapePage />}/>
-				<Route path="/portrait" element={<PortraitPage />}/>
-				<Route path="/about" element={<AboutPage />}/>
-				<Route path="/contact" element={<ContactPage />}/>
+				<Route path="/thanhnguyen" element={<HomePage />}/>
+				<Route path="/thanhnguyen/landscape" element={<LandscapePage />}/>
+				<Route path="/thanhnguyen/portrait" element={<PortraitPage />}/>
+				<Route path="/thanhnguyen/about" element={<AboutPage />}/>
+				<Route path="/thanhnguyen/contact" element={<ContactPage />}/>
 			</Routes>
 			<Footer />
 		</div>

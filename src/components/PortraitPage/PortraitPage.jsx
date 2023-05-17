@@ -32,7 +32,7 @@ function PortraitPage() {
                             }}
                         />
                         <div className="masonry-location">
-                            <img className='masonry-location-icon' src='./img/location-white.png' alt="" />
+                            <img className='masonry-location-icon' src='img/location-white.png' alt="" />
 
                             <span className='masonry-location-text'>{data.location}</span>
 
