@@ -7,7 +7,7 @@ function Footer() {
             <div className="footer-content">
                 <hr className="footer-break"/>
                 <p className='footer-email'>thanhnq112@gmail.com</p>
-                <p className="footer-phone">+7-(968)-063-99-98</p>
+                <p className="footer-phone">+7(968)-063-99-98</p>
                 <div className="footer-socialNetwork">
                     {/* eslint-disable-next-line */}
                     <a href="https://www.facebook.com" target="_blank">
